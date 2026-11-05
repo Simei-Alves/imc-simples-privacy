@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Privacy Policy</title>
+  <title>Privacy Policy - IMC Simples | Simei Alves</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -34,62 +34,168 @@
       font-size: 14px;
       color: #666;
     }
+    li { margin-bottom: 10px; }
+    .app-details {
+      padding: 16px;
+      background: #f1f6ff;
+      border-left: 4px solid #1a73e8;
+      overflow-wrap: anywhere;
+    }
+    @media (max-width: 600px) {
+      body { padding: 16px; }
+      .container { padding: 20px; }
+    }
   </style>
 </head>
 
 <body>
   <div class="container">
-    <h1>Privacy Policy</h1>
+    <h1>Privacy Policy - IMC Simples</h1>
 
-    <p>Last updated: May 2026</p>
+    <p>Last updated: 5 November 2026</p>
 
-    <p>
-      This Privacy Policy describes how we handle information when you use our application.
+    <p class="app-details">
+      <strong>App:</strong> IMC Simples<br />
+      <strong>Android package:</strong> com.imcsimples.bmisimple<br />
+      <strong>Developer shown on Google Play:</strong> Simei Alves<br />
+      <strong>Responsible developer:</strong> Simei Pasqualeto Alves (Portugal)<br />
+      <strong>Privacy contact:</strong>
+      <a href="mailto:geral.simei@gmail.com">geral.simei@gmail.com</a>
     </p>
 
-    <h2>1. Information We Collect</h2>
     <p>
-      We do not collect, store, or share any personally identifiable information.
-      The app operates locally on your device whenever possible.
+      This Privacy Policy applies specifically to IMC Simples, developed and provided by
+      Simei Alves (Simei Pasqualeto Alves). It explains how information is handled by the
+      app, including its Google sign-in, purchase, advertising and analytics services.
+      You can calculate your body mass index (BMI) without signing in.
     </p>
 
-    <h2>2. Usage Data</h2>
+    <h2>1. BMI calculations and information stored on your device</h2>
     <p>
-      We may collect anonymous usage data to improve app performance and user experience.
-      This data does not identify individual users.
+      Height and weight that you enter are used on your device to calculate BMI.
+      When you choose to save a result, the app stores the BMI, weight, measurement unit
+      and date in its local history. Language and measurement-unit preferences are also
+      stored locally. The app does not upload this BMI history to Firebase or send the
+      height, weight or BMI values to the advertising or analytics services described below.
     </p>
 
-    <h2>3. Third-Party Services</h2>
+    <h2>2. Optional Google sign-in and purchases</h2>
     <p>
-      The app may use third-party services (such as analytics or advertising providers).
-      These services may collect anonymized data according to their own privacy policies.
+      If you use Google sign-in for the option to remove advertisements, Google and
+      Firebase Authentication process your sign-in information. This can include your
+      account identifier, email address and profile information supplied by Google,
+      as well as technical information such as IP address and user agent for authentication
+      and security. We do not receive your Google password.
+    </p>
+    <p>
+      The app uses Cloud Firestore to store a user identifier and whether advertisements
+      have been removed. A purchase timestamp may also be stored. This information is used
+      to provide and restore the ad-removal entitlement. Google Play processes in-app
+      payments; the app receives purchase or entitlement information, rather than your
+      payment-card details.
     </p>
 
-    <h2>4. Data Security</h2>
+    <h2>3. Advertising, analytics and other service providers</h2>
+    <ul>
+      <li>
+        <strong>Google AdMob:</strong> the app uses Google's advertising service to display
+        advertisements. The Google Mobile Ads SDK can collect and share IP addresses
+        (which can indicate approximate location), app and advertisement interactions,
+        diagnostic information and device or account identifiers, including an advertising
+        ID where available. Google uses this information for advertising, analytics and
+        fraud prevention. This information is not necessarily anonymous.
+      </li>
+      <li>
+        <strong>Google Analytics for Firebase:</strong> analytics is initialized on supported
+        devices and environments to understand app usage and improve its performance.
+        It can process usage events, app or device information and identifiers according
+        to Google's service settings and policies.
+      </li>
+      <li>
+        <strong>Firebase Authentication and Cloud Firestore:</strong> Google processes
+        account and entitlement information to provide the optional sign-in and purchase
+        features described above.
+      </li>
+      <li>
+        <strong>Google Fonts:</strong> the app loads fonts from Google's servers, which
+        involves transmitting technical request information, including the IP address.
+      </li>
+      <li>
+        <strong>GitHub Pages:</strong> this privacy-policy website is hosted by GitHub.
+        Visiting the website involves technical requests to GitHub, separately from using
+        the BMI calculator.
+      </li>
+    </ul>
     <p>
-      We take reasonable measures to protect your data. However, no method of transmission
-      over the internet or electronic storage is 100% secure.
+      Information is provided to these services to operate the features described above.
+      Their processing and retention practices are described in the
+      <a href="https://policies.google.com/privacy">Google Privacy Policy</a>,
+      <a href="https://firebase.google.com/support/privacy">Firebase privacy information</a>,
+      <a href="https://developers.google.com/admob/android/privacy/play-data-disclosure">Google Mobile Ads data disclosures</a>
+      and <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a>.
+      These providers may process information outside your country.
     </p>
 
-    <h2>5. Children's Privacy</h2>
+    <h2 id="delete-data">4. Data retention and deletion requests</h2>
     <p>
-      Our app does not target children under the age of 13 and does not knowingly collect data from them.
+      <strong>Local BMI history:</strong> saved results remain in the app's local storage
+      until you delete the individual entries from History or clear the app's storage
+      through your device settings. Clearing the app's storage also removes its saved
+      language and unit preferences.
+    </p>
+    <p>
+      <strong>Account and entitlement data:</strong> Firebase account and purchase-entitlement
+      records are retained to support sign-in and the ad-removal feature until deletion
+      is requested, subject to any retention required by applicable law. Clearing the app's
+      local storage does not delete these cloud records.
+    </p>
+    <p>
+      To request deletion of your IMC Simples app account and associated data, or to request
+      access to or correction of your information, email
+      <a href="mailto:geral.simei@gmail.com?subject=IMC%20Simples%20-%20account%20and%20data%20deletion">geral.simei@gmail.com</a>
+      with the subject <strong>IMC Simples - account and data deletion</strong> and identify
+      the email address used to sign in. You can make this request without reinstalling
+      the app. Do not send your password or payment-card details. We may need to verify
+      that the request concerns your account before acting on it.
+    </p>
+    <p>
+      This request concerns the IMC Simples account and associated records; it does not
+      delete your Google account or Google's independently maintained payment records.
+      Advertising and analytics information is retained and deleted according to the
+      relevant Google service settings and policies. Android provides controls for the
+      advertising ID, and Google provides account and advertising privacy controls.
     </p>
 
-    <h2>6. Changes to This Policy</h2>
+    <h2>5. Data security</h2>
+    <p>
+      The Google services described above use encrypted network connections. BMI history
+      is stored in the app's local storage and depends on the security of your device.
+      No method of transmission or storage can guarantee absolute security.
+    </p>
+
+    <h2>6. Children's privacy</h2>
+    <p>
+      If you are a parent or guardian and believe that a child has provided personal
+      information through IMC Simples, contact the responsible developer at
+      <a href="mailto:geral.simei@gmail.com">geral.simei@gmail.com</a>
+      so that the information and any deletion request can be reviewed.
+    </p>
+
+    <h2>7. Changes to this policy</h2>
     <p>
       We may update this Privacy Policy from time to time. Any changes will be posted on this page.
     </p>
 
-    <h2>7. Contact</h2>
+    <h2>8. Contact</h2>
     <p>
-      If you have any questions about this Privacy Policy, you can contact us at:
+      For questions about IMC Simples, this Privacy Policy or your information, contact
+      Simei Alves (Simei Pasqualeto Alves), Portugal:
       <br />
-      <a href="mailto:general.simei@gmail.com">general.simei@gmail.com</a>
+      <a href="mailto:geral.simei@gmail.com">geral.simei@gmail.com</a>
     </p>
 
     <div class="footer">
-      © 2026 Simei. All rights reserved.
+      © 2026 Simei Alves. IMC Simples (com.imcsimples.bmisimple). All rights reserved.
     </div>
   </div>
 </body>
